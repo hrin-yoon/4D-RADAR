@@ -9,14 +9,14 @@ class PsudoRadar(Node):
 
     def __init__(self, data_dir):
         super().__init__('psudoRadar_node')
-        self.data_dir = data_dir # data_dir : 모든 파일들의 경로
-        self.data_index = 0  # 현재 전송할 데이터 파일의 인덱스
+        self.data_dir = data_dir 
+        self.data_index = 0  
         self.publisher_ = self.create_publisher(Float32MultiArray, 'radar_data', 10)
-        self.timer = self.create_timer(1.0, self.publish_data)  # 메서드가 호출되는 주기를 제어
+        self.timer = self.create_timer(1.0, self.publish_data)  
 
     def data_simple_loader(self, path):
         try:
-            data = np.load(path) # path : 현재 처리 중인 파일 하나의 경로
+            data = np.load(path) 
             return data
         except Exception as e:
             self.get_logger().error(f"Failed to load data from {path}: {e}")
@@ -33,11 +33,11 @@ class PsudoRadar(Node):
 
         if data is not None:
             msg = Float32MultiArray()
-            msg.data = data.flatten().tolist()  # 데이터를 리스트로 변환하여 메시지에 설정
+            msg.data = data.flatten().tolist()  
             self.publisher_.publish(msg)
             self.get_logger().info(f'Published radar data from: {current_path} with shape {data.shape}')
         
-        self.data_index += 1  # 다음 데이터 파일로 이동
+        self.data_index += 1  
 
 
 def main(args=None):
