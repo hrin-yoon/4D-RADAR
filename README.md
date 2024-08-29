@@ -1,4 +1,4 @@
-# 4D-RADAR 
+![image](https://github.com/user-attachments/assets/fc06d0c5-2ed6-4462-bc30-9ce7243a93ad)# 4D-RADAR 
 
 ### 1. Execution Environment
 
@@ -27,6 +27,7 @@ $ cd 4D-RADAR
 ![ROS_WORK-페이지-3 drawio](https://github.com/user-attachments/assets/34242393-fef3-4942-9b05-470116246363)
 - Befor multi pc excute,we need to set each PC using [DDS](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%82%B0_%EC%84%9C%EB%B9%84%EC%8A%A4)
 
+#### 1. DDS
 ```cmd
 ##### PC1 & PC2 
 $ export ROS_DOMAIN_ID=5
@@ -37,6 +38,8 @@ $ export ROS_LOCALHOST_ONLY=0
 $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc 
 $ source ~/.bashrc
 ```
+#### 2. RVIZ2
+![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
 
 #### 3. Excute 
 ##### < Single PC communocattion >
