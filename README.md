@@ -25,19 +25,9 @@
 $ git clone https://github.com/hrin-yoon/4D-RADAR.git
 cd 4D-RADAR
 ```
-2. Excute
-> Single PC communocattion 
-> If you want to communicate in only one pc, You need to open 4 terminal.
-```cmd
-$ python3 psudo_radar.py # terminal 1
-$ python3 perception.py # terminal 2
 
-$ rviz2 #terminal 3
-$ rqt_graph # terminal 4
-
-```
-> Multi PC communication 
-> Befor excute,we need to set each PC using DDS(Data Distribution Service)
+2. Setting
+> Befor multi pc excute,we need to set each PC using DDS(Data Distribution Service)
 
 ```cmd
 # PC1 & PC2 
@@ -49,6 +39,22 @@ $ export ROS_LOCALHOST_ONLY=0
 $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc 
 $ source ~/.bashrc
 ```
+
+
+3. Excute
+> Single PC communocattion 
+> You don'need to 2.Setting
+> If you want to communicate in only one pc, You need to open 4 terminal.
+
+```cmd
+$ python3 psudo_radar.py # terminal 1
+$ python3 perception.py # terminal 2
+
+$ rviz2 #terminal 3
+$ rqt_graph # terminal 4
+
+```
+> Multi PC communication 
 > If you want to communicate in multi pc, You need to open 4 terminal. ( PC1 - 1, PC2-3)
 ```cmd
 $ python3 psudo_radar.py # terminal 1 in PC1
