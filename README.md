@@ -5,7 +5,7 @@
 
 
 ------------------
-### Execution Environment
+### 1. Execution Environment
 
 |    |Environment   |
 |----|-------:|
@@ -14,13 +14,13 @@
 |ROS|ROS2 foxy, humbel|
 
 ------------------
-### Installation
+### 2. Installation
 
 1. Ubuntu (20.04/22.04)
 2. ROS2 (foxy/humbel)
 
 ------------------
-### Excution
+### 3. Excution
 
 #### 1. Clone the repository
 ```cmd
@@ -66,7 +66,7 @@ $ rviz2 #terminal 3 in PC2
 $ rqt_graph # terminal 4 in PC2
 ```
 ------------------
-### Expected result
+### 4. Expected result
 
 #### RVIZ2 excuting result
 [Screencast from 08-28-2024 05:15:29 PM.webm](https://github.com/user-attachments/assets/9b76decd-96f8-4641-a394-12305c022ce0)
