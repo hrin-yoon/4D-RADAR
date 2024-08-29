@@ -38,11 +38,6 @@ $ export ROS_LOCALHOST_ONLY=0
 $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc 
 $ source ~/.bashrc
 ```
-##### -  RVIZ2
-```cmd
-$ rviz2
-```
-![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
 
 ### 3. Excute 
 #### < Single PC communocattion >
@@ -57,6 +52,12 @@ $ python3 perception.py # terminal 2
 $ rviz2 #terminal 3
 $ rqt_graph # terminal 4
 ```
+##### -  RVIZ2
+```cmd
+$ rviz2
+```
+![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
+
 #### < Multi PC communication >
 ![ROS_WORK-페이지-3 drawio (2)](https://github.com/user-attachments/assets/5bd20ddc-1462-4bb9-96b6-b0193032868d)
 - If you are using multiple computers, each computer will require its own configuration.
