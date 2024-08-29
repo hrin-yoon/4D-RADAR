@@ -23,7 +23,7 @@ $ git clone https://github.com/hrin-yoon/4D-RADAR.git
 $ cd 4D-RADAR
 ```
 
-#### 2. Setting
+### 2. Setting
 ![ROS_WORK-페이지-3 drawio](https://github.com/user-attachments/assets/34242393-fef3-4942-9b05-470116246363)
 - Befor multi pc excute,we need to set each PC using [DDS](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%82%B0_%EC%84%9C%EB%B9%84%EC%8A%A4)
 
@@ -44,8 +44,8 @@ $ rviz2
 ```
 ![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
 
-#### 3. Excute 
-##### < Single PC communocattion >
+### 3. Excute 
+#### < Single PC communocattion >
 ![ROS_WORK-페이지-3 drawio (1)](https://github.com/user-attachments/assets/3f5c8a70-8e20-4a1a-ab6c-f7bb8b62d6cb)
 -  You don't need to configure the 2. setting if you're using a single PC.
 -  If you want to communicate using a single PC, you need to open 4 terminals (4 on PC1).
@@ -57,7 +57,7 @@ $ python3 perception.py # terminal 2
 $ rviz2 #terminal 3
 $ rqt_graph # terminal 4
 ```
-##### < Multi PC communication >
+#### < Multi PC communication >
 ![ROS_WORK-페이지-3 drawio (2)](https://github.com/user-attachments/assets/5bd20ddc-1462-4bb9-96b6-b0193032868d)
 - If you are using multiple computers, each computer will require its own configuration. We'll use communication between two PCs as an example.
 - To communicate between two PCs, you need to open 4 terminals (1 on PC1 and 3 on PC2).
