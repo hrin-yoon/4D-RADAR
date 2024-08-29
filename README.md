@@ -43,33 +43,31 @@ $ source ~/.bashrc
 #### < Single PC communocattion >
 ![ROS_WORK-페이지-3 drawio (1)](https://github.com/user-attachments/assets/3f5c8a70-8e20-4a1a-ab6c-f7bb8b62d6cb)
 -  You don't need to configure the 2. setting if you're using a single PC.
--  If you want to communicate using a single PC, you need to open 4 terminals (4 on PC1).
+-  If you want to communicate using a single PC, you need to open 3 terminals (3 on PC1).
 
 ```cmd
 $ python3 psudo_radar.py # terminal 1
 $ python3 perception.py # terminal 2
 
-$ rviz2 #terminal 3
-$ rqt_graph # terminal 4
 ```
 ##### -  RVIZ2
 ```cmd
-$ rviz2
+$ rviz2  # terminal 3
 ```
 ![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
+
 
 #### < Multi PC communication >
 ![ROS_WORK-페이지-3 drawio (2)](https://github.com/user-attachments/assets/5bd20ddc-1462-4bb9-96b6-b0193032868d)
 - If you are using multiple computers, each computer will require its own configuration.
 - We'll use communication between two PCs as an example.
-- To communicate between two PCs, you need to open 4 terminals (1 on PC1 and 3 on PC2).
+- To communicate between two PCs, you need to open 4 terminals (1 on PC1 and 2 on PC2).
   
 ```cmd
 $ python3 psudo_radar.py # terminal 1 in PC1
 $ python3 perception.py # terminal 2 in PC2
 
 $ rviz2 #terminal 3 in PC2
-$ rqt_graph # terminal 4 in PC2
 ```
 ------------------
 ### 4. Expected result
