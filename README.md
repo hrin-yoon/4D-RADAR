@@ -40,8 +40,7 @@ $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-
-3. Excute
+3. Excute \n
 < Single PC communocattion >
 -  You don'need to 2.Setting
 -  If you want to communicate in only one pc, You need to open 4 terminal.
