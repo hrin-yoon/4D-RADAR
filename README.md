@@ -9,7 +9,7 @@ TBD
 ------------------
 |    |Environment   |
 |----|-------:|
-|OS|Ubuntu|
+|OS|Ubuntu 18.04/20.04/22.04|
 |Python|Python 3.10|
 |ROS|ROS2|
 
@@ -22,8 +22,12 @@ TBD
 ------------------
 ```cmd
 $ python3 psudo_radar.py
-```
+$ python3 perception.py
 
+$ rviz2
+$ rqt_graph
+
+```
 
 ### Expected result
 ------------------
