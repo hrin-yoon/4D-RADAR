@@ -13,13 +13,15 @@
 |Python|Python 3.10|
 |ROS|ROS2 foxy, humbel|
 
-### Installation
 ------------------
+### Installation
+
 1. Ubuntu (20.04/22.04)
 2. ROS2 (foxy/humbel)
 
-### Excution
 ------------------
+### Excution
+
 #### 1. Clone the repository
 ```cmd
 $ git clone https://github.com/hrin-yoon/4D-RADAR.git
@@ -63,8 +65,8 @@ $ python3 perception.py # terminal 2 in PC2
 $ rviz2 #terminal 3 in PC2
 $ rqt_graph # terminal 4 in PC2
 ```
-
+------------------\
 ### Expected result
-------------------
+
 #### RVIZ2 excuting result
 [Screencast from 08-28-2024 05:15:29 PM.webm](https://github.com/user-attachments/assets/9b76decd-96f8-4641-a394-12305c022ce0)
