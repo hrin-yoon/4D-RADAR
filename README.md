@@ -46,7 +46,7 @@ $ source ~/.bashrc
 ##### < Single PC communocattion >
 
 -  You don't need to configure the 2. setting if you're using a single PC.
--  If you want to communicate using a single PC, you need to open 4 terminals.
+-  If you want to communicate using a single PC, you need to open 4 terminals (4 on PC1).
 
 ```cmd
 $ python3 psudo_radar.py # terminal 1
