@@ -22,6 +22,7 @@
 ------------------
 > If you want to communicate in one pc, You need to open 4 terminal.
 
+```cmd
 $ python3 psudo_radar.py # terminal 1
 $ python3 perception.py # terminal 2
 
