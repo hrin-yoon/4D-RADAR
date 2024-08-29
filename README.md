@@ -12,7 +12,7 @@
 ### 2. Installation
 
 1. Ubuntu (20.04/22.04)
-2. ROS2 (foxy/humbel)
+2. ROS2 ([foxy](https://docs.ros.org/en/foxy/Installation.html)/[humbel](https://docs.ros.org/en/humble/index.html))
 
 ------------------
 ### 3. Excution
