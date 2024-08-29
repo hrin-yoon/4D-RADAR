@@ -20,8 +20,8 @@ TBD
 
 ### Excution
 ------------------
-```python
-print('hello')
+```cmd
+python3 psudo_radar.py
 ```
 
 
