@@ -27,12 +27,12 @@ cd 4D-RADAR
 ```
 
 #### 2. Setting
-- Befor multi pc excute,we need to set each PC using DDS(Data Distribution Service)
+- Befor multi pc excute,we need to set each PC using [DDS](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%82%B0_%EC%84%9C%EB%B9%84%EC%8A%A4)
 
 ```cmd
 ##### PC1 & PC2 
 $ export ROS_DOMAIN_ID=5
-$ echo "export ROS_DOMAIN_ID=5" >> ~/.bashrc #환경변수설정 - 자동 실행 
+$ echo "export ROS_DOMAIN_ID=5" >> ~/.bashrc 
 $ source ~/.bashrc
 
 $ export ROS_LOCALHOST_ONLY=0
