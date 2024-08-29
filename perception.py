@@ -34,7 +34,7 @@ class Perception(Node):
         msg.height = 1
         msg.width = reshaped_array.shape[0]
 
-        # PointCloud2의 필드 정의
+        # PointCloud2
         msg.fields = [
             PointField(name="x", offset=0, datatype=PointField.FLOAT32, count=1),
             PointField(name="y", offset=4, datatype=PointField.FLOAT32, count=1),
@@ -43,13 +43,12 @@ class Perception(Node):
         ]
         
         msg.is_bigendian = False
-        msg.point_step = 16  # 4 (x) + 4 (y) + 4 (z) + 4 (intensity)
+        msg.point_step = 16  
         msg.row_step = msg.point_step * reshaped_array.shape[0]
 
         msg.is_dense = True
         msg.data = np.array(reshaped_array, dtype=np.float32).tobytes()
 
-        # PointCloud2 메시지 발행
         self.publisher_percep.publish(msg)
         self.get_logger().info(f"Published PointCloud2 with {reshaped_array.shape[0]} points")
 
