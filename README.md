@@ -6,7 +6,7 @@
 
 
 ### Execution Environment
-* * *
+------------------
 |    |Environment   |
 |----|-------:|
 |OS|Ubuntu 20.04/22.04|
@@ -16,14 +16,14 @@
 ### Installation
 ------------------
 1. Ubuntu (20.04/22.04)
-2. ROS2 (foxy, humbel)
+2. ROS2 (foxy/humbel)
 
 ### Excution
 ------------------
 #### 1. Clone the repository
 ```cmd
 $ git clone https://github.com/hrin-yoon/4D-RADAR.git
-cd 4D-RADAR
+$ cd 4D-RADAR
 ```
 
 #### 2. Setting
@@ -42,6 +42,7 @@ $ source ~/.bashrc
 
 #### 3. Excute 
 ##### < Single PC communocattion >
+
 -  You don'need to 2.Setting
 -  If you want to communicate in only one pc, You need to open 4 terminal.
 
@@ -51,19 +52,19 @@ $ python3 perception.py # terminal 2
 
 $ rviz2 #terminal 3
 $ rqt_graph # terminal 4
-
 ```
 ##### < Multi PC communication >
 - If you want to communicate in multi pc, You need to open 4 terminal. ( PC1 - 1, PC2 - 3)
+  
 ```cmd
 $ python3 psudo_radar.py # terminal 1 in PC1
 $ python3 perception.py # terminal 2 in PC2
 
 $ rviz2 #terminal 3 in PC2
 $ rqt_graph # terminal 4 in PC2
-
 ```
 
 ### Expected result
 ------------------
+#### RVIZ2 excuting result
 [Screencast from 08-28-2024 05:15:29 PM.webm](https://github.com/user-attachments/assets/9b76decd-96f8-4641-a394-12305c022ce0)
