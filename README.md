@@ -1,8 +1,8 @@
 # 4D-RADAR 
- 
+
+### Class diagram
 ![ROS_WORK-페이지-4 drawio](https://github.com/user-attachments/assets/d1a5ac63-1679-4d08-98d5-cb6214e7761b)
 
-TBD
 
 
 ### Execution Environment
@@ -16,16 +16,17 @@ TBD
 ### Installation
 ------------------
 1. Ubuntu ( 18.04/20.04/22.04)
-2. ROS2
+2. ROS2 
 
 ### Excution
 ------------------
-```cmd
-$ python3 psudo_radar.py
-$ python3 perception.py
+> If you want to communicate in one pc, You need to open 4 terminal.
 
-$ rviz2
-$ rqt_graph
+$ python3 psudo_radar.py # terminal 1
+$ python3 perception.py # terminal 2
+
+$ rviz2 #terminal 3
+$ rqt_graph # terminal 4
 
 ```
 
