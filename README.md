@@ -9,25 +9,40 @@
 ------------------
 |    |Environment   |
 |----|-------:|
-|OS|Ubuntu 18.04/20.04/22.04|
+|OS|Ubuntu 20.04/22.04|
 |Python|Python 3.10|
-|ROS|ROS2|
+|ROS|ROS2 foxy, humbel|
 
 ### Installation
 ------------------
-1. Ubuntu ( 18.04/20.04/22.04)
-2. ROS2 
+1. Ubuntu (20.04/22.04)
+2. ROS2 foxy, humbel
 
 ### Excution
 ------------------
-> If you want to communicate in one pc, You need to open 4 terminal.
-
+1. Clone the repository
+```cmd
+$ git clone https://github.com/hrin-yoon/4D-RADAR.git
+cd 4D-RADAR
+```
+> If you want to communicate in only one pc, You need to open 4 terminal.
 ```cmd
 $ python3 psudo_radar.py # terminal 1
 $ python3 perception.py # terminal 2
 
 $ rviz2 #terminal 3
 $ rqt_graph # terminal 4
+
+```
+
+> If you want to communicate in multi pc, You need to open 4 terminal. ( PC1 - 1, PC2-3)
+
+```cmd
+$ python3 psudo_radar.py # terminal 1 in PC1
+$ python3 perception.py # terminal 2 in PC2
+
+$ rviz2 #terminal 3 in PC2
+$ rqt_graph # terminal 4 in PC2
 
 ```
 
