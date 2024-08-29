@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
 
-class DataFeeder(Node):
+class Preprocessing(Node):
     cont = 0
     def __init__(self):
         super().__init__('data_feeder')
@@ -23,7 +23,7 @@ class DataFeeder(Node):
 def main(args=None):
 
     rclpy.init(args=args) 
-    data_feeder = DataFeeder() 
+    data_feeder = Preprocessing() 
     
     try:
         rclpy.spin(data_feeder)
