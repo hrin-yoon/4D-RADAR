@@ -59,7 +59,8 @@ $ rqt_graph # terminal 4
 ```
 #### < Multi PC communication >
 ![ROS_WORK-페이지-3 drawio (2)](https://github.com/user-attachments/assets/5bd20ddc-1462-4bb9-96b6-b0193032868d)
-- If you are using multiple computers, each computer will require its own configuration. We'll use communication between two PCs as an example.
+- If you are using multiple computers, each computer will require its own configuration.
+- We'll use communication between two PCs as an example.
 - To communicate between two PCs, you need to open 4 terminals (1 on PC1 and 3 on PC2).
   
 ```cmd
