@@ -4,9 +4,9 @@
 ![ROS_WORK-페이지-4 drawio](https://github.com/user-attachments/assets/d1a5ac63-1679-4d08-98d5-cb6214e7761b)
 
 
-
-### Execution Environment
 ------------------
+### Execution Environment
+
 |    |Environment   |
 |----|-------:|
 |OS|Ubuntu 20.04/22.04|
@@ -65,7 +65,7 @@ $ python3 perception.py # terminal 2 in PC2
 $ rviz2 #terminal 3 in PC2
 $ rqt_graph # terminal 4 in PC2
 ```
-------------------\
+------------------
 ### Expected result
 
 #### RVIZ2 excuting result
