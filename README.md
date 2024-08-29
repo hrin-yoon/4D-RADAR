@@ -39,6 +39,9 @@ $ echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 #### 2. RVIZ2
+```cmd
+$ rviz2
+```
 ![image](https://github.com/user-attachments/assets/c146e471-18e2-42e5-b0ca-16483f0e195c)
 
 #### 3. Excute 
