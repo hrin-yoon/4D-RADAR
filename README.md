@@ -42,7 +42,7 @@ $ source ~/.bashrc
 
 
 3. Excute
--  Single PC communocattion
+< Single PC communocattion >
 -  You don'need to 2.Setting
 -  If you want to communicate in only one pc, You need to open 4 terminal.
 
@@ -54,7 +54,7 @@ $ rviz2 #terminal 3
 $ rqt_graph # terminal 4
 
 ```
-- Multi PC communication
+< Multi PC communication >
 - If you want to communicate in multi pc, You need to open 4 terminal. ( PC1 - 1, PC2 - 3)
 ```cmd
 $ python3 psudo_radar.py # terminal 1 in PC1
